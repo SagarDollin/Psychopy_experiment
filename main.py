@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 from psychopy import visual, event, core, gui  # import some libraries from PsychoPy
 
 #create a window
@@ -36,10 +29,6 @@ for i in range(1,8):
             break
         response_times.append(clock.getTime() - current)
 
-
-
-
-
 mywin.close()
 
 print("****************************************************************************************************************************************************************************************************************************************************************************************")
@@ -48,5 +37,4 @@ print(response_times)
 
 
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
